@@ -46,16 +46,16 @@ export default function Footer() {
         <div className="footer-grid">
           {/* Column 1: Business Brand & Overview */}
           <div className="footer-col">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="brand-link footer-brand-link"
-              style={{ 
-                textDecoration: 'none', 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: '14px', 
-                marginBottom: '16px' 
-              }} 
+              style={{
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '14px',
+                marginBottom: '16px'
+              }}
               aria-label="Shreenathji Electrical Home"
             >
               <img
@@ -69,39 +69,39 @@ export default function Footer() {
                   display: 'block'
                 }}
               />
-              <div 
-                className="brand-text-wrap" 
-                style={{ 
-                  display: 'inline-flex', 
-                  flexDirection: 'column', 
-                  alignItems: 'center', 
-                  width: 'fit-content' 
+              <div
+                className="brand-text-wrap"
+                style={{
+                  display: 'inline-flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  width: 'fit-content'
                 }}
               >
-                <span 
-                  className="brand-title-shreenathji" 
-                  style={{ 
-                    color: '#FFFFFF', 
-                    fontSize: '1.35rem', 
+                <span
+                  className="brand-title-shreenathji"
+                  style={{
+                    color: '#FFFFFF',
+                    fontSize: '1.35rem',
                     fontWeight: 900,
-                    textAlign: 'center', 
-                    display: 'block', 
+                    textAlign: 'center',
+                    display: 'block',
                     width: '100%',
                     lineHeight: 1.15
                   }}
                 >
                   {BUSINESS_DATA.brandNameFirst}
                 </span>
-                <span 
-                  className="brand-title-electrical" 
-                  style={{ 
+                <span
+                  className="brand-title-electrical"
+                  style={{
                     color: 'var(--brand-orange)',
-                    fontSize: '1.0rem', 
+                    fontSize: '1.0rem',
                     fontWeight: 800,
                     letterSpacing: '2.5px',
                     textIndent: '2.5px',
-                    textAlign: 'center', 
-                    display: 'block', 
+                    textAlign: 'center',
+                    display: 'block',
                     width: '100%',
                     lineHeight: 1.15
                   }}
